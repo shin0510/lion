@@ -1,0 +1,130 @@
+h1{
+ 
+font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #4d4d4d;
+
+}
+body{
+  background-color: #59b149;
+  padding: 30px 0 5%;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+a:hover{
+  opacity: .8;
+
+}
+.pc{
+  display: block;
+}
+.sp{
+  display: none;
+}
+.wrapper{
+  max-width: 730px;
+  margin: 0 auto;
+}
+.wrapper2{
+  max-width: 830px;
+}
+a{
+  display: block;
+  max-width: 490px;
+  width: 50.4vw;
+  margin: 0 auto;
+}
+header{
+  background-color: #fff;
+  padding: 3% 0;
+}
+.title{
+  margin: 4% auto;
+}
+.prize{
+  margin: 6% auto 4%;
+}
+.campaign{
+  position: relative;
+  margin:  4% auto;
+}
+.campaign .campaign-content{
+  position: absolute;
+  top:14%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 91.78%;
+  font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  text-align: justify;
+}
+.campaign .campaign-content dt{
+  background-color: #e6e6e6;
+  font-size: 1.64vw;
+  padding: .5% 0 .5% 1%;
+}
+.campaign .campaign-content dd{
+  font-size: 1.44vw;
+  padding: 1.5% 0;
+  line-height: 21px;
+}
+@media(min-width:972px){
+  .campaign .campaign-content dt{
+    font-size: 16px;
+  }
+  .campaign .campaign-content dd{
+    font-size: 14px;
+  }
+}
+@media(max-width:830px){
+  .wrapper{
+    padding: 0 3%;
+  }
+}
+/*スマホ版*/
+@media(max-width:600px){
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
+  a{
+    width: 82.28%;
+  }
+  .campaign .campaign-content{
+
+    top:9.5%;
+
+ 
+    width: 72.42%;
+    letter-spacing: 0;
+
+  }
+  .campaign .campaign-content dt{
+    background-color: #e6e6e6;
+    font-size: 4.57vw;
+    padding: .5% 0 .5% 1%;
+  }
+  .campaign .campaign-content dd{
+    font-size: 4vw;
+    padding: 4% 0;
+    line-height: 6vw;
+  }
+  .title{
+    margin: 7% auto;
+  }
+  .prize{
+    margin: 9% auto 7%;
+  }
+  .campaign{
+    margin:  7% auto;
+  }
+  body{
+    padding-bottom: 10%;
+  }
+}
+
